@@ -1,0 +1,37 @@
+.UploadPage-dialog {
+    height: auto;
+    width: auto;
+}
+
+.UploadPage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeIcon {
+    margin-right: 1rem;
+}
+
+.closeIcon:hover {
+    cursor: pointer;
+}
+
+.uploadPage-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.DialogModal-buttons {
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
+.uploadVideo-btn {
+    background-color: rgb(191, 0, 0) !important;
+}
+
+.formInput {
+    margin-top: 1rem !important;
+}

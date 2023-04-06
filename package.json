@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.16",
+    "axios": "^1.3.4",
+    "react": "^18.2.0",
+    "react-router": "5.2.1",
+    "script": "^0.1.4"
+  },
+  "name": "aditya-singh-criodo-me_buildout_xflix_react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.crio.do:COHORT_ME_BUILDOUT_XFLIX_REACT_ENROLL_1644326597753/aditya-singh-criodo-ME_BUILDOUT_XFLIX_REACT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

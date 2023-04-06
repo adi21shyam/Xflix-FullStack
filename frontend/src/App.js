@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Route, Switch } from "react-router-dom";
+import Dashboard from "./components/Dashboard";
+import Videopage from "./components/VideoPage";
+
+
+export const config = {
+  endpoint: `https://7452bf8c-256e-425a-8136-e7e1d8a308ae.mock.pstmn.io/v1`,
+};
+
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route exact path="/" component={Dashboard} />
+        <Route path="/video/:id" component={Videopage} />
+      </Switch>
+      
     </div>
+    </BrowserRouter>
   );
 }
 
