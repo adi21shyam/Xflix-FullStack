@@ -1,17 +1,4 @@
 {
-  "module_id": "ME_BUILDOUT_XFLIX_REACT_MODULE_REACT"
-  cd ~/workspace/aditya-singh-criodo-ME_BUILDOUT_XFLIX_REACT
-  
-  git add .
-  
-  git commit -m "ME_BUILDOUT_XFLIX_REACT_MODULE_REACT"
-  
-  git push -u origin master
-  
-  
-  # Ensure you have no pending commits
-  
-  git status
-  ,
+  "module_id": "ME_BUILDOUT_XFLIX_REACT_MODULE_REACT",
   "me_id": "ME_BUILDOUT_XFLIX_REACT"
 }
