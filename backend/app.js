@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const httpStatus = require("http-status");
-const routes = require("./routes");
+const routes = require("./routes/v1");
 const helmet = require("helmet");
 
 const app = express();
