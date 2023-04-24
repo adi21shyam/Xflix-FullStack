@@ -1,0 +1,28 @@
+.video-container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:white;
+}
+
+.iframe-container {
+    height: 50vh !important;
+    width: 90vw !important;
+}
+
+.iframe {
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.videoDetails-container {
+    width: 90vw;
+}
+
+.dashboard {
+    margin: 1rem;
+    padding: 1rem 5rem;
+}
